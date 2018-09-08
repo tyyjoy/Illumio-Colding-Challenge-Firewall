@@ -9,8 +9,7 @@ test_list = [['inbound', 'tcp', 80, '192.168.1.2'],
              ['inbound', 'udp', 53, '192.168.2.1'],
              ['outbound', 'tcp', 10234, '192.168.10.11'],
              ['inbound', 'tcp', 81, '192.168.1.2'],
-             ['inbound', 'udp', 24, '52.12.48.92'],
-            ]
+             ['inbound', 'udp', 24, '52.12.48.92']]
 
 # create random test cases
 min_ip = int(ipaddress.IPv4Address('192.168.10.11'))
