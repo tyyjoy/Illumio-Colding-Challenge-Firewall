@@ -13,7 +13,8 @@ test_list = [['inbound', 'tcp', 80, '192.168.1.2'],
             ]
 
 # create random test cases
-min_ip, max_ip = int(ipaddress.IPv4Address('192.168.10.11')), int(ipaddress.IPv4Address('255.255.255.255'))
+min_ip = int(ipaddress.IPv4Address('192.168.10.11'))
+max_ip = int(ipaddress.IPv4Address('255.255.255.255'))
 min_port, max_port = 10000, 20000
 for i in range(5):
     if i % 2:
@@ -32,7 +33,6 @@ test_list.append(['inbound', 'tcp', 80, '192.168.1.257'])
 # test and print the result
 cnt = 0
 for t in test_list:
-    # print(t)
     if cnt == 0:
         print('basic test cases results:')
         print('The answer should be True, the result is also', )
