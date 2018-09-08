@@ -24,6 +24,6 @@ $ python test.py
 ```
 
 ## Interests of the particular area:
-* Data team
-* Platform team
-* Policy team
+* 1. Data team
+* 2. Platform team
+* 3. Policy team
